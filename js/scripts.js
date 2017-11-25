@@ -23,7 +23,7 @@
    7. Parallax Background
    8. Portfolio Filtering
    9. Magnific Popup
-  10. Testimonial Carousel/Slider
+  10. blog Carousel/Slider
   11. Statistics Counter
   12. Google Map
  
@@ -110,9 +110,9 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am A Freelancer.", "I Design Websites.", "I Live in New York."],    /* You can change the home section typing text from
+            strings: ["I am a Data Scientist","I can help you make decisions.", "I live in Bangalore."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
-            typeSpeed: 50
+            typeSpeed: 20
           });
          });
         
@@ -168,9 +168,9 @@
        
 	   
 		 
-        /* Testimonial Carousel/Slider */
+        /* blog Carousel/Slider */
 
-        $(".testimonial-carousel-list").owlCarousel({
+        $(".blog-carousel-list").owlCarousel({
             items: 1,
             autoPlay: true,
             stopOnHover: false,
@@ -198,7 +198,7 @@
            $(counter).countTo({
            from: 0,
            to: toCount,
-           speed: 5000,
+           speed: 2000,
            refreshInterval: 50
            })
            });
@@ -213,8 +213,8 @@
             maptype: 'ROADMAP',
             markers:[
             {
-            address: "New York",  /* You can change your address from here */
-            html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
+            address: "Bangalore",  /* You can change your address from here */
+            html: "<b>Address</b>: <br> Bangalore,Karnataka,India",   /* You can change display address text from here */
             popup: true
             }
             ]
