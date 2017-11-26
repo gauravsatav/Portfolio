@@ -19,7 +19,7 @@
    3. Home Section and Navigation Menu
    4. About Me
    5. Portfolio
-   6. Testimonial
+   6. blog
    7. Statistics
    8. Services
    9. Call to Action
@@ -608,13 +608,13 @@ ul.portfolio li.active {
 
 
 
-/* Testimonial */
+/* blog */
 
-.testimonial-section {
+.blog-section {
     background: #F9F9F9;
 }
 
-.testimonial-carousel-list {
+.blog-carousel-list {
     padding: 30px;
     background-color: #fff;
     border-radius: 4px;
@@ -622,21 +622,21 @@ ul.portfolio li.active {
     transition: all 0.3s ease-in-out;
 }
 
-.testimonial-carousel-list:hover {
+.blog-carousel-list:hover {
     box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
     top: -5px;
 }
 
-.testimonial-word {
+.blog-word {
     padding: 0px 100px;
 }
 
-.testimonial-word img {
+.blog-word img {
 	margin: 0 auto;
     max-width: 140px;
 }
 
-.testimonial-word h2 {
+.blog-word h2 {
     font-size: 12px;
     text-transform: uppercase;
 	color: #24b662;
@@ -645,7 +645,7 @@ ul.portfolio li.active {
     margin: 20px 0px;
 }
 
-.testimonial-word p {
+.blog-word p {
     line-height: 25px;
 }
 
@@ -1053,10 +1053,10 @@ ul.portfolio li.active {
     .section-title h2 {
         font-size: 22px;
     }
-    .testimonial-word {
+    .blog-word {
         padding: 0;
     }
-    .testimonial-carousel-list {
+    .blog-carousel-list {
         margin-top: 0px;
     }
     .statistics-center {
