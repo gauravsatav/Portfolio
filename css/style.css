@@ -163,6 +163,7 @@ fieldset {
 	transition: all 0.3s;
 }
 
+
 .button:after {
 	content: '';
 	position: absolute;
